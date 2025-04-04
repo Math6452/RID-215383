@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    background-color: #303030;
+}
+
+#Titulo{
+    margin-left: 50px;
+    margin-top: 130px;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+#Sub-titulo {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 56px;
+    padding-bottom: 90px;
+}
+
+strong {
+    background-color: #FFFFFF;
+}
+
+.infos {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 65px;
+}
+
+.textos {
+    background-color: #FFFFFF;
+    font-size: 25px;
+}
+
+.exemplo-ilustrativo {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 45px;
+}
+
+.textos-exemplos {
+    background-color: #FFFFFF;
+}
+
+#titulo-explo {
+    background-color: #FFFFFF;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#texto-ilu {
+    background-color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-titulo {
+    text-align: center;
+    padding: 25px;
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+
+#formulario {
+    text-align: center;
+}
+
+img {
+    border-radius: 45px;
+}
+
+img:hover {
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgb(102, 102, 102);
+    transition-duration: 0.5s;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+button {
+    background-color: #C07212;
+    font-size: 33px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #dddddd;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgb(158, 100, 13);
+    transition-duration: 0.5s;
+}
